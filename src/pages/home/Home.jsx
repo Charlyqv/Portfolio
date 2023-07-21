@@ -24,8 +24,8 @@ export const Home = () => {
         </div>
       </div>
 
+      <div className="color__block__right"></div>
       <div className="color__block__left"></div>
-      {/* <div className="color__block__right"></div> */}
     </section>
   )
 }

@@ -46,22 +46,21 @@
   margin-block: 16px 32px;
 }
 
-.color__block__left {
+.color__block__right {
   position: fixed;
-  height: 200%;
-  width: 100%;
+  height: 80%;
+  width: 150%;
   background-color: var(--first-color);
-  top: -50%;
-  left: -83%;
+  bottom: -60%;
   transform: rotate(-15deg);
 }
 
-.color__block__right {
+.color__block__left {
   position: fixed;
-  height: 200%;
-  width: 100%;
+  height: 60%;
+  width: 150%;
+  left: -50%;
   background-color: var(--first-color);
-  top: -50%;
-  right: -83%;
+  top: -40%;
   transform: rotate(-15deg);
 }
