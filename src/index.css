@@ -241,7 +241,7 @@
 
 @media screen and (max-width: 450px) {
   .home__img {
-    display: none;
+    display: inherit;
   }
 
   .home__content {
@@ -267,9 +267,25 @@
   }
 }
 
-@media screen and (max-width: 350px) {
-  .home__title span {
+@media screen and (max-width: 449px) {
+
+  .home {
+    justify-items: left;
+  }
+  .home__title {
     display: inline;
+  }
+
+  .home__img {
+    display: inherit;
+}
+
+  .home__img {
+    width: 275px;
+    height: 405px;
+    
+    border-radius: 10%;
+    margin-top: auto;
   }
 
   .stats {

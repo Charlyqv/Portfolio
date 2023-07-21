@@ -9,23 +9,23 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work1 from '/assets/project-1.jpeg';
+import Work2 from '/assets/project-2.jpg';
+import Work3 from '/assets/project-3.jpeg';
+import Work4 from '/assets/project-4.jpeg';
+import Work5 from '/assets/project-5.jpg';
+import Work6 from '/assets/project-6.jpg';
 
-import Theme1 from './assets/purple.png';
-import Theme2 from './assets/red.png';
-import Theme3 from './assets/blueviolet.png';
-import Theme4 from './assets/blue.png';
-import Theme5 from './assets/goldenrod.png';
-import Theme6 from './assets/magenta.png';
-import Theme7 from './assets/yellowgreen.png';
-import Theme8 from './assets/orange.png';
-import Theme9 from './assets/green.png';
-import Theme10 from './assets/yellow.png';
+import Theme1 from '/assets/purple.png';
+import Theme2 from '/assets/red.png';
+import Theme3 from '/assets/blueviolet.png';
+import Theme4 from '/assets/blue.png';
+import Theme5 from '/assets/goldenrod.png';
+import Theme6 from '/assets/magenta.png';
+import Theme7 from '/assets/yellowgreen.png';
+import Theme8 from '/assets/orange.png';
+import Theme9 from '/assets/green.png';
+import Theme10 from '/assets/yellow.png';
 
 export const links = [
   {
@@ -61,25 +61,25 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Carlos',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Villaseñor Quintero',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '24 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Mexican',
   },
 
   {
@@ -91,44 +91,44 @@ export const personalInfo = [
   {
     id: 6,
     title: 'Address : ',
-    description: 'Tunis',
+    description: 'Morelia',
   },
 
   {
     id: 7,
     title: 'Phone : ',
-    description: '+21621184010',
+    description: '44-32-71-58-96',
   },
 
   {
     id: 8,
     title: 'Email : ',
-    description: 'you@mail.com',
+    description: 'charlyqv98@gmail.com',
   },
 
   {
     id: 9,
     title: 'Skype : ',
-    description: 'steve.milner',
+    description: 'charly.qv',
   },
 
   {
     id: 10,
     title: 'Langages : ',
-    description: 'French, English',
+    description: 'Spanish, English',
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '12+',
+    no: '2+',
     title: 'Years of <br /> Experience',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '2+',
     title: 'Completed <br /> Projects',
   },
 
@@ -138,11 +138,11 @@ export const stats = [
     title: 'Happy <br /> Customers',
   },
 
-  {
-    id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
-  },
+  // {
+  //   id: 4,
+  //   no: '53+',
+  //   title: ' Awards <br /> Won',
+  // },
 ];
 
 export const resume = [
@@ -150,8 +150,8 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
+    year: '2022 - PRESENT',
+    title: 'Full Stack <span> Corporativo Cruz Azul </span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
   },
 
@@ -159,8 +159,8 @@ export const resume = [
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
+    year: '2021',
+    title: 'Mobile Software Developer <span> Kiritek </span>',
     desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
 
@@ -168,17 +168,17 @@ export const resume = [
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
+    year: '2020',
+    title: 'Web Developer <span> Fiscalía General del Estado de Michoacán</span>',
     desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
   },
 
   {
     id: 4,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: '2018',
+    title: 'Web Developer <span> n Instituto Michoacano de Ciencias de la Educación José María Morelos</span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
   },
 
@@ -186,8 +186,8 @@ export const resume = [
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
+    year: '2018 - 2020',
+    title: 'Systems Engineer <span> Universidad Tecnológica de Morelia </span>',
     desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
   },
 
@@ -195,8 +195,8 @@ export const resume = [
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
+    year: '2016 - 2018',
+    title: 'Top Technician <span> Universidad Tecnológica de Morelia </span>',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
   },
 ];
@@ -226,11 +226,11 @@ export const skills = [
     percentage: '66',
   },
 
-  {
-    id: 5,
-    title: 'Wordpress',
-    percentage: '95',
-  },
+  // {
+  //   id: 5,
+  //   title: 'Wordpress',
+  //   percentage: '95',
+  // },
 
   {
     id: 6,
@@ -238,11 +238,11 @@ export const skills = [
     percentage: '50',
   },
 
-  {
-    id: 7,
-    title: 'Angular',
-    percentage: '65',
-  },
+  // {
+  //   id: 7,
+  //   title: 'Angular',
+  //   percentage: '65',
+  // },
 
   {
     id: 8,

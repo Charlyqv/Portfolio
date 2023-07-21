@@ -10,7 +10,7 @@ export const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Carlos Villaseñor Quintero</span> Web Designer
+            <span>I'm Carlos Villaseñor Quintero</span> Full Stack Developer
           </h1>
           <p className="home__description">Yo soy yo, la mera pistola, y lo que siempre
             digo es que soy una cosa barbara
