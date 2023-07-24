@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from '/assets/project-1.jpeg';
+import Work1 from '/assets/gif-search-cvq2.0.jpg';
 import Work2 from '/assets/project-2.jpg';
 import Work3 from '/assets/project-3.jpeg';
 import Work4 from '/assets/project-4.jpeg';
@@ -255,27 +255,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Search Gif',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Gif',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal Project',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React - Vite - JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://gif-search-cvq.netlify.app/',
       },
     ],
   },
@@ -391,7 +391,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Search Gif',
     details: [
       {
         icon: <FiFileText />,
