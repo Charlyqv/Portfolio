@@ -10,7 +10,7 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from '/assets/gif-search-cvq2.0.jpg';
-import Work2 from '/assets/project-2.jpg';
+import Work2 from '/assets/heroes-app.jpg';
 import Work3 from '/assets/project-3.jpeg';
 import Work4 from '/assets/project-4.jpeg';
 import Work5 from '/assets/project-5.jpg';
@@ -275,7 +275,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://gif-search-cvq.netlify.app/',
+        desc: <a href={'https://gif-search-cvq.netlify.app/'}>https://gif-search-cvq.netlify.app/</a>,
       },
     ],
   },
@@ -283,27 +283,27 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Heroes App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Heroes',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Personal Project',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'React - Vite - JS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: <a href={'https://marvel-dc-app-heroes.netlify.app'}>https://marvel-dc-app-heroes.netlify.app</a>,
       },
     ],
   },
