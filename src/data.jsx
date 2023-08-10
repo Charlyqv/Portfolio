@@ -49,12 +49,12 @@ export const links = [
     path: '/portfolio',
   },
 
-  {
-    id: 4,
-    name: 'Contact',
-    icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/contact',
-  },
+  // {
+  //   id: 4,
+  //   name: 'Contact',
+  //   icon: <FaEnvelopeOpen className='nav__icon' />,
+  //   path: '/contact',
+  // },
 ];
 
 export const personalInfo = [
@@ -106,11 +106,11 @@ export const personalInfo = [
     description: 'charlyqv98@gmail.com',
   },
 
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'charly.qv',
-  },
+  // {
+  //   id: 9,
+  //   title: 'Skype : ',
+  //   description: 'charly.qv',
+  // },
 
   {
     id: 10,
@@ -204,51 +204,51 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '25',
+    title: 'Javascript',
+    percentage: '65',
   },
 
   {
     id: 2,
-    title: 'Javascript',
-    percentage: '89',
+    title: 'PHP',
+    percentage: '60',
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    title: 'React',
+    percentage: '40',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'CodeIgniter',
+    percentage: '50',
   },
-
-  // {
-  //   id: 5,
-  //   title: 'Wordpress',
-  //   percentage: '95',
-  // },
+    
+  {
+    id: 5,
+    title: 'CSS',
+    percentage: '60',
+  },
 
   {
     id: 6,
-    title: 'Jquery',
+    title: 'Html',
+    percentage: '55',
+  },
+
+  {
+    id: 7,
+    title: 'jQuery',
     percentage: '50',
   },
 
   // {
-  //   id: 7,
-  //   title: 'Angular',
-  //   percentage: '65',
+  //   id: 8,
+  //   title: 'React',
+  //   percentage: '45',
   // },
-
-  {
-    id: 8,
-    title: 'React',
-    percentage: '45',
-  },
 ];
 
 export const portfolio = [

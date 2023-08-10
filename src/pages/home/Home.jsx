@@ -12,8 +12,11 @@ export const Home = () => {
           <h1 className="home__title">
             <span>I'm Carlos Villaseñor Quintero</span> Full Stack Developer
           </h1>
-          <p className="home__description">Yo soy yo, la mera pistola, y lo que siempre
-            digo es que soy una cosa barbara
+          <p className="home__description">I'm a Full Stack Developer excels 
+          in Javascript and PHP, employing tools like HTML, CSS, jQuery, and Ajax, 
+          along with SQL expertise. Competent in React and CodeIgniter frameworks. 
+          With a knack for crafting dynamic interfaces and handling databases, 
+          I'm a versatile professional who merges creativity with technical prowess.
           </p>
           <Link to='/about' className='button'>
             More About Me{' '}
