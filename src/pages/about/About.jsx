@@ -6,10 +6,11 @@ import { Skills } from "../../components/Skills";
 import { resume } from "../../data";
 import { ResumeItem } from "../../components/ResumeItem";
 import "./about.css";
+import 'animate.css';
 
 export const About = () => {
   return (
-    <main className="section container">
+    <main className="section container animate__animated animate__zoomIn">
       <section className="about">
         <h2 className="section__title">
           About <span>Me</span>

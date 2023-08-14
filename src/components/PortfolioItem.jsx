@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Close from "../assets/close.svg";
+import 'animate.css';
 
 export const PortfolioItem = ({img, title, details}) => {
   const [modal, setModal] = useState(false);
@@ -17,7 +18,7 @@ export const PortfolioItem = ({img, title, details}) => {
 
       {modal && (
         <div className="portfolio__modal">
-          <div className="portfolio__modal-content">
+          <div className="portfolio__modal-content animate__animated animate__zoomIn">
             <img src={Close} alt="" className="modal__close" onClick={toggleModal} />
 
             <h3 className="modal__title">{title}</h3>

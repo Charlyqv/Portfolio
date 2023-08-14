@@ -132,11 +132,11 @@ export const stats = [
     title: 'Completed <br /> Projects',
   },
 
-  {
-    id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
-  },
+  // {
+  //   id: 3,
+  //   no: '81+',
+  //   title: 'Happy <br /> Customers',
+  // },
 
   // {
   //   id: 4,
@@ -151,35 +151,43 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2022 - PRESENT',
-    title: 'Full Stack <span> Corporativo Cruz Azul </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    title: 'Full Stack Developer<span> Corporativo Cruz Azul </span>',
+    desc: <p>-Actually I work on the multiple software projects simultaneously 
+      and participated in the whole software development process from design 
+      to implementation. Using PHP, Javascript, HTML and CSS in the 
+      framework CodeIgniter.<br></br>
+      -Developed new software functionalities, ensuring that requirements were met.<br></br>
+      -Proficient in designing and executing database queries, data retrieval, and analysis using SQL. Competent in database management and data manipulation to extract meaningful insights.
+      </p>,
   },
 
-  {
-    id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2021',
-    title: 'Mobile Software Developer <span> Kiritek </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
+  // {
+  //   id: 2,
+  //   category: 'experience',
+  //   icon: <FaBriefcase />,
+  //   year: '2021',
+  //   title: 'Mobile Software Developer <span> Kiritek </span>',
+  //   desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+  // },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2020',
+    year: 'January 2020 - April 2020',
     title: 'Web Developer <span> Fiscalía General del Estado de Michoacán</span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    desc: <p>-Developed a web system for the management of interns. Using PHP, Javascript, 
+    HTML and CSS in the framework Laravel.<br></br>
+    - Participated in the whole software development process from design to coding</p>,
   },
 
   {
     id: 4,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018',
+    year: 'August 2018 - December 2018',
     title: 'Web Developer <span> n Instituto Michoacano de Ciencias de la Educación José María Morelos</span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    desc: '-I developed a webpage for the monitoring of attendance and student grades. Using PHP, Javascript, HTML and CSS in the framework Laravel',
   },
 
   {
@@ -188,7 +196,7 @@ export const resume = [
     icon: <FaGraduationCap />,
     year: '2018 - 2020',
     title: 'Systems Engineer <span> Universidad Tecnológica de Morelia </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    desc: '',
   },
 
   {
@@ -196,8 +204,8 @@ export const resume = [
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2016 - 2018',
-    title: 'Top Technician <span> Universidad Tecnológica de Morelia </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    title: 'University Higher Technician <span> Universidad Tecnológica de Morelia </span>',
+    desc: '',
   },
 ];
 
@@ -234,7 +242,7 @@ export const skills = [
 
   {
     id: 6,
-    title: 'Html',
+    title: 'HTML',
     percentage: '55',
   },
 
@@ -308,113 +316,113 @@ export const portfolio = [
     ],
   },
 
-  {
-    id: 3,
-    img: Work3,
-    title: 'Video Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   img: Work3,
+  //   title: 'Video Editing',
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: 'Project : ',
+  //       desc: 'Video',
+  //     },
+  //     {
+  //       icon: <FiUser />,
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: 'Language : ',
+  //       desc: 'Adobe Premium',
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: 'Preview : ',
+  //       desc: 'www.dribble.com',
+  //     },
+  //   ],
+  // },
 
-  {
-    id: 4,
-    img: Work4,
-    title: 'Video Editing',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   img: Work4,
+  //   title: 'Video Editing',
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: 'Project : ',
+  //       desc: 'Video',
+  //     },
+  //     {
+  //       icon: <FiUser />,
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: 'Language : ',
+  //       desc: 'Adobe Premium',
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: 'Preview : ',
+  //       desc: 'www.dribble.com',
+  //     },
+  //   ],
+  // },
 
-  {
-    id: 5,
-    img: Work5,
-    title: 'Landing Page',
-    details: [
-      {
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   img: Work5,
+  //   title: 'Landing Page',
+  //   details: [
+  //     {
+  //       title: 'Project : ',
+  //       desc: 'Website',
+  //     },
+  //     {
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       title: 'Language : ',
+  //       desc: 'React JS, Node JS',
+  //     },
+  //     {
+  //       title: 'Preview : ',
+  //       desc: 'www.dribble.com',
+  //     },
+  //   ],
+  // },
 
-  {
-    id: 6,
-    img: Work6,
-    title: 'Search Gif',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   img: Work6,
+  //   title: 'Search Gif',
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: 'Project : ',
+  //       desc: 'Photo',
+  //     },
+  //     {
+  //       icon: <FiUser />,
+  //       title: 'Client : ',
+  //       desc: 'Dribble',
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: 'Language : ',
+  //       desc: 'Adobe Photoshop',
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: 'Preview : ',
+  //       desc: 'www.dibble.com',
+  //     },
+  //   ],
+  // },
 ];
 
 export const themes = [
