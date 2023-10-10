@@ -9,12 +9,10 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from '/assets/gif-search-cvq2.0.jpg';
-import Work2 from '/assets/heroes-app.jpg';
-import Work3 from '/assets/project-3.jpeg';
-import Work4 from '/assets/project-4.jpeg';
-import Work5 from '/assets/project-5.jpg';
-import Work6 from '/assets/project-6.jpg';
+import Work1 from '/assets/notas-app2.png';
+import Work2 from '/assets/gif-search-cvq2.0.jpg';
+import Work3 from '/assets/heroes-app.jpg';
+import Work4 from '/assets/listado-personas.png';
 
 import Theme1 from '/assets/purple.png';
 import Theme2 from '/assets/red.png';
@@ -263,6 +261,34 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
+    title: 'Notas',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Diario',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React - Vite - JS - Firebase',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://notas-app-cvq.netlify.app/'}>https://notas-app-cvq.netlify.app/</a>,
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
     title: 'Search Gif',
     details: [
       {
@@ -289,8 +315,8 @@ export const portfolio = [
   },
 
   {
-    id: 2,
-    img: Work2,
+    id: 3,
+    img: Work3,
     title: 'Heroes App',
     details: [
       {
@@ -312,6 +338,34 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: <a href={'https://marvel-dc-app-heroes.netlify.app'}>https://marvel-dc-app-heroes.netlify.app</a>,
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    img: Work4,
+    title: 'Listado de personas',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Listado',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React - Vite - TS',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://listado-personas-paises.netlify.app/'}>https://listado-personas-paises.netlify.app/</a>,
       },
     ],
   },
