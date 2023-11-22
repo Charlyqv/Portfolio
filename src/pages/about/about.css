@@ -72,6 +72,7 @@
 .progress__circle {
   width: 120px;
   height: 120px;
+  animation: rotation 1000000s infinite linear;
 }
 
 .CircularProgressbar-path {
@@ -163,4 +164,39 @@
 .resume__description {
   font-size: var(--smaller-font-size);
   line-height: 1.6;
+}
+
+.skills__item {
+  /* position: relative; */
+  /* overflow: hidden; */
+  transform-style: preserve-3d;
+  animation: rotation 10s infinite linear;
+}
+
+.skills__img {
+  height: 100px;
+  width: 100%;
+}
+
+.skills__hover {
+  background-color: var(--first-color);
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.skills__item:hover .skills__hover {
+  opacity: 1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }

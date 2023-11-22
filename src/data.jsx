@@ -9,10 +9,19 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from '/assets/notas-app2.png';
-import Work2 from '/assets/gif-search-cvq2.0.jpg';
-import Work3 from '/assets/heroes-app.jpg';
-import Work4 from '/assets/listado-personas.png';
+import Work1 from '/assets/calendario-app.png';
+import Work2 from '/assets/notas-app2.png';
+import Work3 from '/assets/gif-search-cvq2.0.jpg';
+import Work4 from '/assets/heroes-app.jpg';
+import Work5 from '/assets/listado-personas.png';
+
+import JS from '/assets/js.png';
+import PHP from '/assets/php.png';
+import React from '/assets/react.png';
+import CodeIgniter from '/assets/codeigniter.png';
+import CSS from '/assets/css.png';
+import HTML from '/assets/html.png';
+import jQuery from '/assets/jQuery.png';
 
 import Theme1 from '/assets/purple.png';
 import Theme2 from '/assets/red.png';
@@ -71,7 +80,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '24 Years',
+    description: '25 Years',
   },
 
   {
@@ -261,6 +270,34 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
+    title: 'Calendar',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Calendar',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'MongoDB - Express - React - Node (MERN)',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://calendario-backend-production-1c96.up.railway.app/auth/login/'}>https://calendario-backend-production-1c96.up.railway.app/auth/login/</a>,
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
     title: 'Notas',
     details: [
       {
@@ -287,8 +324,8 @@ export const portfolio = [
   },
 
   {
-    id: 2,
-    img: Work2,
+    id: 3,
+    img: Work3,
     title: 'Search Gif',
     details: [
       {
@@ -315,8 +352,8 @@ export const portfolio = [
   },
 
   {
-    id: 3,
-    img: Work3,
+    id: 4,
+    img: Work4,
     title: 'Heroes App',
     details: [
       {
@@ -343,8 +380,8 @@ export const portfolio = [
   },
 
   {
-    id: 4,
-    img: Work4,
+    id: 5,
+    img: Work5,
     title: 'Listado de personas',
     details: [
       {
@@ -477,6 +514,50 @@ export const portfolio = [
   //     },
   //   ],
   // },
+];
+
+export const skills_rotate = [
+  {
+    id: 1,
+    img: JS,
+    title: 'JavaScript',
+  },
+
+  {
+    id: 2,
+    img: PHP,
+    title: 'PHP',
+  },
+
+  {
+    id: 3,
+    img: React,
+    title: 'React',
+  },
+
+  {
+    id: 4,
+    img: CodeIgniter,
+    title: 'CodeIgniter',
+  },
+    
+  {
+    id: 5,
+    img: CSS,
+    title: 'CSS',
+  },
+
+  {
+    id: 6,
+    img: HTML,
+    title: 'HTML',
+  },
+
+  {
+    id: 7,
+    img: jQuery,
+    title: 'jQuery',
+  },
 ];
 
 export const themes = [

@@ -1,7 +1,7 @@
 import { Info } from "../../components/Info";
 import { Stats } from "../../components/Stats";
 import { FaDownload } from 'react-icons/fa';
-import CV from "../../assets/CV-ING-CarlosVillaseñorQuinteroEnglish.pdf";
+import CV from "../../assets/CV-ING-CarlosVillaseñorQuinteroE.pdf";
 import { Skills } from "../../components/Skills";
 import { resume } from "../../data";
 import { ResumeItem } from "../../components/ResumeItem";
