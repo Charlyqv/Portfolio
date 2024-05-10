@@ -24,6 +24,7 @@ import CodeIgniter from '/assets/codeigniter.png';
 import CSS from '/assets/css.png';
 import HTML from '/assets/html.png';
 import jQuery from '/assets/jQuery.png';
+import Laravel from '/assets/laravel.png';
 
 import Theme1 from '/assets/purple.png';
 import Theme2 from '/assets/red.png';
@@ -58,12 +59,12 @@ export const links = [
     path: '/portfolio',
   },
 
-  // {
-  //   id: 4,
-  //   name: 'Contact',
-  //   icon: <FaEnvelopeOpen className='nav__icon' />,
-  //   path: '/contact',
-  // },
+  {
+    id: 4,
+    name: 'Contact',
+    icon: <FaEnvelopeOpen className='nav__icon' />,
+    path: '/contact',
+  },
 ];
 
 export const personalInfo = [
@@ -159,12 +160,11 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2022 - PRESENT',
+    year: 'August 2022 - March 2024',
     title: 'Full Stack Developer<span> Corporativo Cruz Azul </span>',
-    desc: <p>-Actually I work on the multiple software projects simultaneously 
-      and participated in the whole software development process from design 
-      to implementation. Using PHP, Javascript, HTML and CSS in the 
-      framework CodeIgniter.<br></br>
+    desc: <p>-I worked on multiple software projects simultaneously and participated in the
+    whole software development process from design to implementation. Using
+    PHP, Javascript, HTML and CSS in the framework CodeIgniter<br></br>
       -Developed new software functionalities, ensuring that requirements were met.<br></br>
       -Proficient in designing and executing database queries, data retrieval, and analysis using SQL. Competent in database management and data manipulation to extract meaningful insights.
       </p>,
@@ -493,18 +493,24 @@ export const skills_rotate = [
     
   {
     id: 5,
+    img: Laravel,
+    title: 'Laravel',
+  },
+
+  {
+    id: 6,
     img: CSS,
     title: 'CSS',
   },
 
   {
-    id: 6,
+    id: 7,
     img: HTML,
     title: 'HTML',
   },
 
   {
-    id: 7,
+    id: 8,
     img: jQuery,
     title: 'jQuery',
   },
