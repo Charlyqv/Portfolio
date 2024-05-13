@@ -11,11 +11,12 @@ import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from '/assets/calendario-app.png';
 import Work2 from '/assets/notas-app2.png';
-import Work3 from '/assets/gif-search-cvq2.0.jpg';
-import Work4 from '/assets/heroes-app.jpg';
-import Work5 from '/assets/listado-personas.png';
-import Work6 from '/assets/control-gastos.png';
-import Work7 from '/assets/pokedex-2.png';
+import Work3 from '/assets/fit-club.png';
+import Work4 from '/assets/gif-search-cvq2.0.jpg';
+import Work5 from '/assets/heroes-app.jpg';
+import Work6 from '/assets/listado-personas.png';
+import Work7 from '/assets/control-gastos.png';
+import Work8 from '/assets/pokedex-2.png';
 
 import JS from '/assets/js.png';
 import PHP from '/assets/php.png';
@@ -328,6 +329,34 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
+    title: 'Fit Club',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Gif',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React - Vite - JS',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://fit-club-cvq.netlify.app/'}>https://fit-club-cvq.netlify.app/</a>,
+      },
+    ],
+  },
+  
+  {
+    id: 4,
+    img: Work4,
     title: 'Search Gif',
     details: [
       {
@@ -354,8 +383,8 @@ export const portfolio = [
   },
 
   {
-    id: 4,
-    img: Work4,
+    id: 5,
+    img: Work5,
     title: 'Heroes App',
     details: [
       {
@@ -382,8 +411,8 @@ export const portfolio = [
   },
 
   {
-    id: 5,
-    img: Work5,
+    id: 6,
+    img: Work6,
     title: 'Listado de personas',
     details: [
       {
@@ -410,8 +439,8 @@ export const portfolio = [
   },
 
   {
-    id: 6,
-    img: Work6,
+    id: 7,
+    img: Work7,
     title: 'Control de gastos',
     details: [
       {
@@ -438,8 +467,8 @@ export const portfolio = [
   },
 
   {
-    id: 7,
-    img: Work7,
+    id: 8,
+    img: Work8,
     title: 'POKEDEX',
     details: [
       {
