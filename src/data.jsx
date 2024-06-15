@@ -17,6 +17,7 @@ import Work5 from '/assets/heroes-app.jpg';
 import Work6 from '/assets/listado-personas.png';
 import Work7 from '/assets/control-gastos.png';
 import Work8 from '/assets/pokedex-2.png';
+import Work9 from '/assets/image-gallery.png';
 
 import JS from '/assets/js.png';
 import PHP from '/assets/php.png';
@@ -490,6 +491,34 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: <a href={'https://pokedex-cvq.netlify.app/'}>https://pokedex-cvq.netlify.app/</a>,
+      },
+    ],
+  },
+
+  {
+    id: 9,
+    img: Work9,
+    title: 'Image Gallery',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Gallery',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React - Vite',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://image-gallery-cvq.netlify.app/'}>https://image-gallery-cvq.netlify.app/</a>,
       },
     ],
   },
