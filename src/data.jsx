@@ -9,15 +9,16 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from '/assets/calendario-app.png';
+// import Work1 from '/assets/calendario-app.png';
 import Work2 from '/assets/notas-app2.png';
 import Work3 from '/assets/fit-club.png';
-import Work4 from '/assets/gif-search-cvq2.0.jpg';
-import Work5 from '/assets/heroes-app.jpg';
-import Work6 from '/assets/listado-personas.png';
-import Work7 from '/assets/control-gastos.png';
-import Work8 from '/assets/pokedex-2.png';
-import Work9 from '/assets/image-gallery.png';
+import Work4 from '/assets/blog-internet-gallery.png';
+import Work5 from '/assets/pokedex-2.png';
+import Work6 from '/assets/gif-search-cvq2.0.jpg';
+import Work7 from '/assets/heroes-app.jpg';
+import Work8 from '/assets/listado-personas.png';
+import Work9 from '/assets/control-gastos.png';
+import Work10 from '/assets/image-gallery.png';
 
 import JS from '/assets/js.png';
 import PHP from '/assets/php.png';
@@ -271,33 +272,33 @@ export const skills = [
 ];
 
 export const portfolio = [
-  {
-    id: 1,
-    img: Work1,
-    title: 'Calendar',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Calendar',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Personal Project',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'MongoDB - Express - React - Node (MERN)',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: <a href={'https://calendario-backend-production-1c96.up.railway.app/auth/login/'}>https://calendario-backend-production-1c96.up.railway.app/auth/login/</a>,
-      },
-    ],
-  },
+  // {
+  //   id: 1,
+  //   img: Work1,
+  //   title: 'Calendar',
+  //   details: [
+  //     {
+  //       icon: <FiFileText />,
+  //       title: 'Project : ',
+  //       desc: 'Calendar',
+  //     },
+  //     {
+  //       icon: <FiUser />,
+  //       title: 'Client : ',
+  //       desc: 'Personal Project',
+  //     },
+  //     {
+  //       icon: <FaCode />,
+  //       title: 'Language : ',
+  //       desc: 'MongoDB - Express - React - Node (MERN)',
+  //     },
+  //     {
+  //       icon: <FiExternalLink />,
+  //       title: 'Preview : ',
+  //       desc: <a href={'https://calendario-backend-production-1c96.up.railway.app/auth/login/'}>https://calendario-backend-production-1c96.up.railway.app/auth/login/</a>,
+  //     },
+  //   ],
+  // },
 
   {
     id: 2,
@@ -358,6 +359,62 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
+    title: 'Blog Internet Gallery',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Blog Internet',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React - Vite - JS, Node.js, MySQL',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://blog-internet-gallery.netlify.app/'}>https://blog-internet-gallery.netlify.app/</a>,
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    img: Work5,
+    title: 'POKEDEX',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Pokedex',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Personal Project',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React - Vite - Tailwind',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://pokedex-cvq.netlify.app/'}>https://pokedex-cvq.netlify.app/</a>,
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    img: Work6,
     title: 'Search Gif',
     details: [
       {
@@ -384,8 +441,8 @@ export const portfolio = [
   },
 
   {
-    id: 5,
-    img: Work5,
+    id: 7,
+    img: Work7,
     title: 'Heroes App',
     details: [
       {
@@ -412,8 +469,8 @@ export const portfolio = [
   },
 
   {
-    id: 6,
-    img: Work6,
+    id: 8,
+    img: Work8,
     title: 'Listado de personas',
     details: [
       {
@@ -440,8 +497,8 @@ export const portfolio = [
   },
 
   {
-    id: 7,
-    img: Work7,
+    id: 9,
+    img: Work9,
     title: 'Control de gastos',
     details: [
       {
@@ -463,34 +520,6 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: <a href={'https://control-gastos-cvq.netlify.app/'}>https://control-gastos-cvq.netlify.app/</a>,
-      },
-    ],
-  },
-
-  {
-    id: 8,
-    img: Work8,
-    title: 'POKEDEX',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Pokedex',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Personal Project',
-      },
-      {
-        icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React - Vite - Tailwind',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: <a href={'https://pokedex-cvq.netlify.app/'}>https://pokedex-cvq.netlify.app/</a>,
       },
     ],
   },
