@@ -525,8 +525,8 @@ export const portfolio = [
   },
 
   {
-    id: 9,
-    img: Work9,
+    id: 10,
+    img: Work10,
     title: 'Image Gallery',
     details: [
       {
