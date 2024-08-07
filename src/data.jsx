@@ -10,6 +10,7 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 // import Work1 from '/assets/calendario-app.png';
+import Work1 from '/assets/erp.png';
 import Work2 from '/assets/notas-app2.png';
 import Work3 from '/assets/fit-club.png';
 import Work4 from '/assets/blog-internet-gallery.png';
@@ -299,6 +300,34 @@ export const portfolio = [
   //     },
   //   ],
   // },
+
+  {
+    id: 1,
+    img: Work1,
+    title: 'ERP',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'ERP',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Private Startup',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'PHP - Laravel - MySQL',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: <a href={'https://erp-gallery.netlify.app/'}>https://erp-gallery.netlify.app/</a>,
+      },
+    ],
+  },
 
   {
     id: 2,
